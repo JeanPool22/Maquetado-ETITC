@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+#header {
+  width: 100%;
+}
+
 #nav-uno {
   width: 100%;
   height: 30px;
@@ -16,22 +20,26 @@
   list-style: none;
   text-decoration: none;
   margin: 0px auto;
-  width: 13800px;
+  width: 100%;
 }
 
-#nav-uno > ul > li {
-    line-height: 30px;
-    float: left;
+#nav-uno ul li {
+  line-height: 30px;
+  float: left;
+  padding-left: 25px;
+  padding-right: 20px;
+  cursor: pointer;
 }
 
-#nav-uno > ul > li {
-   display: block;
-   padding-left: 25px;
-   padding-right: 20px;
-   cursor: pointer;
+#lenguaje {
+  background-color: #7e4299;
+}
+
+#div-img {
+  margin: 10px 100px;
 }
 
 #logo {
-  width: 35%;
-  height: auto;
+  width: 490px;
+  height: 155px;
 }
